@@ -1,0 +1,11 @@
+a = ['apple', 10, 5.5, True]
+print(a)
+print(a[0])
+print(a[3])
+a.append('ball')
+print(a)
+a.append('False')
+print(a)
+print(len(a))
+print('apple' in a)
+print(False in a)
